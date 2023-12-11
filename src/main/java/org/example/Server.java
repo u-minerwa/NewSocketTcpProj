@@ -10,7 +10,6 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.TimeZone;
 
-
 public class Server {
     private static ServerSocket serverSocket;
     private static Socket clientSocket;
@@ -116,3 +115,4 @@ public class Server {
         return false;
     }
 }
+
